@@ -1,11 +1,12 @@
+:root {
+    font-size: 62.5%;
+    --hover-color: #a8ee62;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;  
-}
-
-:root {
-    font-size: 62.5%;
 }
 
 body {

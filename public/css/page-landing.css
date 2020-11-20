@@ -52,16 +52,16 @@ main h1 {
     margin: auto;
 
     transition: background 500ms;
-    animation-delay: 250ms;
 }
 
 .visit a:hover {
-    background: #a8ee62;
+    background: var(--hover-color);
 }
 
 /* Desktop version */
 @media (min-width: 760px) {
     #container {
+        /* position: absolute; */
         padding: 5rem 2rem;
         background: url("../images/bg.svg") no-repeat 80% / clamp(30rem, 54vw, 56rem);
     }
@@ -85,7 +85,7 @@ main h1 {
 
     main h1 {
         font-weight: bold;
-        line-height: .88;
+        line-height: .9;
 
         margin: clamp(10%, 9vh, 12%) 0 4rem;
 

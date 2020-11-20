@@ -68,8 +68,6 @@ a.create-orphanage:hover {
 .leaflet-popup-content {
     color: #0089a5;
 
-
-
     margin: .8rem 1.2rem;
 
     display: flex;
@@ -92,7 +90,7 @@ a.create-orphanage:hover {
 }
 
 .leaflet-popup-content a:hover {
-    background: #a8ee62;
+    background: var(--hover-color);
 }
 
 .leaflet-popup-tip {
